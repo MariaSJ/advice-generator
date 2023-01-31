@@ -24,8 +24,8 @@ getData();
 const renderAdvice = () => {
     let dataHtml = "";
 
-    dataHtml += `<p class="card__numberAdvice">Advice: ${advices.id}</p>`;
-    dataHtml += `<h1 class="card__advice">${advices.advice}</h1>`;
+    dataHtml += `<p class="card__numberAdvice">Advice #${advices.id}</p>`;
+    dataHtml += `<h1 class="card__advice">"${advices.advice}"</h1>`;
 
     return advice.innerHTML = dataHtml;
 };

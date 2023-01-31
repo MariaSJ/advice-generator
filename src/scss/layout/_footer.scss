@@ -4,6 +4,7 @@
     text-align: center;
 
     &__link { 
-    color: hsl(228, 45%, 44%); 
+        color: $Neon-Green;
+        text-decoration: none;
     }
 }
