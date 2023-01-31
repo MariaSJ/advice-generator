@@ -1,6 +1,5 @@
 .card{
     height: 270px;
-    //width: 290px;
     margin-left: 30px;
     margin-right: 30px;
     background-color: $Dark-Grayish-Blue;
@@ -18,7 +17,6 @@
         align-content: center;
         align-items: center;
         height: 220px;
-        //width: 280px;
         margin-left: 20px;
         margin-right: 20px;
         gap: 20px;
@@ -39,9 +37,6 @@
     }
 
     &__img{
-        // background-image: url(../images/pattern-divider-mobile.svg);
-        // background-position: center;
-        // background-size: cover;
         width: 200px;
     }
 
@@ -67,5 +62,23 @@
         padding: 15px;
         border: none;
         cursor: pointer;
+    }
+}
+
+@media all and (min-width: 768px){
+    .card{
+        width: 450px;
+
+        &__numberAdvice{
+            font-size: 15px;
+        }
+
+        &__advice{
+            font-size: 25px;
+        }
+
+        &__img{
+            width: 300px;
+        }
     }
 }

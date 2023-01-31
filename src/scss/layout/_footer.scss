@@ -8,3 +8,9 @@
         text-decoration: none;
     }
 }
+
+@media all and (min-width: 768px){
+    .attribution{
+        font-size: 15px; 
+    }
+}
