@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body{
+  height: 100vh;
+  font-family: $main-font;
+  color: $Light-Cyan;
+  background-color: $Dark-Blue;
+}
+
+.main{
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
