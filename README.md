@@ -8,8 +8,7 @@ In this simple advice generator, users can access hundreds of advice by clicking
 The advice is given by API (https://api.adviceslip.com/advice).
 ### This was build with:
 HTML5, Sass and JavaScript
-
-##Links:
+###Links:
 Live web site: https://mariasj.github.io/advice-generator/
 Frontend Mentor: https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db
 
